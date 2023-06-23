@@ -7,7 +7,7 @@ jobs:
   deploy: 
     runs-on: ubuntu-latest
     steps:
-    - name: Krok 1
+    - name: Krok 12
       uses: actions/checkout@v1
     - name: Wdrożenie aplikacji do FTP - Krok 2
       uses: SamKirkland/FTP-Deploy-Action@v4.3.3
